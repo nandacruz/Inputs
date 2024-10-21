@@ -1,0 +1,43 @@
+*{  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+ 
+}
+
+html, body {  
+  width: 100%;
+  height: 100%;  
+}
+
+.inputs{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  gap: 24px;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+body{     
+  padding: 24px; 
+}
+
+input{
+  outline: none;
+}
+
+input:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
